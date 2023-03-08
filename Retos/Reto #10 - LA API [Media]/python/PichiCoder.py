@@ -9,7 +9,7 @@ jsonData = url.read()
 parsed_json = json.loads(jsonData) #el json feo
 pretty_json = json.dumps(parsed_json, indent=2) #el json lindo y fachero
 
-fichero = open("C:/Users/Usuario/MyPythonScripts/Pruebas Varias/numbersDataJSON.txt", "w")
+fichero = open("numbersDataJSON.txt", "w")
 fichero.write(pretty_json)
 
 print(pretty_json)
